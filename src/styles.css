@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* Stilos Propriros*/
+
+.clear{
+	clear: both;
+}
+
+
+.navbar{
+  background-image: linear-gradient(to left, rgb(69, 157, 207), rgb(13, 0, 88));
+}
+.nav-link{
+    margin: 0 15px;
+    color: white !important;
+}
+a.navbar-brand{
+    color: white !important;
+    font-family: 'Lobster', cursive;
+  font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+margin-left: 5%;
+
+}
+.logoGif{
+  background-image: url(../src/assets/gif-engrenagem.gif);
+  width: 32px;
+height: 32px;
+background-size: 100% 100%;
+}
+/*Formulario*/
+
+
+.cad1{
+  font-family: 'Lobster', cursive;
+  font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  text-align: center;
+  color: rgb(2, 77, 77);
+}
+button {
+  float:right;
+
+}
+.btRe{
+
+  border-radius: 20px;
+  color:white;
+  background-color: #01075c;
+
+}
+
+table{
+  margin-top: 5%;
+  float: left;
+  position: relative;
+}
+
+
+
+
+
+footer{
+  margin-bottom: 50%;
+	border-top:2px solid #01075c;
+	padding:20px 0;
+	text-align: center;
+	color: rgb(10, 1, 49);
+    background-image: linear-gradient(to left, rgb(12, 6, 71), rgb(36, 33, 228),rgb(6, 22, 116));
+
+  position: fixed;
+  bottom: 0;
+}
+
+footer p{
+
+	margin-top:30px;
+    color: rgb(255, 249, 249);
+    text-align:center;
+
+
+}
+
+@media screen and (max-width: 1024px){
+  a.navbar-brand{
+   color: white !important;
+   font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+    margin-left: 50%;
+
+  }
+  a.navbar-brand{
+  color: linear-gradient(to right, rgb(6, 5, 83), rgb(3, 11, 82)) !important;
+   margin-left: 10%;
+  }
+
+
+  .bv{
+      margin-left: 10px;
+      margin-top: -80px;
+      font-family: 'Lobster', cursive;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+
+  }
+
+}

@@ -1,0 +1,25 @@
+<ol>
+  <li>
+    <mat-form-field appearance="fill">
+      <mat-label>Cadastrar Receitas</mat-label>
+    <form action="" class="example-form" [formGroup]="cadForm">
+          <label>Valor </label>
+          <input type="number" placeholder="Valor R$ =">
+          <label>Data de Recebimento </label>
+          <input type="date" placeholder="Data do Recebimento">
+          <label>Data de Recebimento Esperado </label>
+          <input type="date"  placeholder="Data do Recebimento Esperado">
+          <label>Descrição </label>
+          <input type="text"  placeholder="Descrição">
+          <label>Tipo de Receita </label>
+          <input type="text" placeholder="Tipo de Receita">
+
+          <button style=" background-image: linear-gradient(to rigth, rgb(16, 8, 121), rgb(19, 5, 97));border: 0; width: 200px;" type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </mat-form-field>
+  </li>
+  <li>
+    <button mat-raised-button (click)="cancelar()">Voltar</button>
+  </li>
+
+</ol>
