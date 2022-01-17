@@ -1,27 +1,18 @@
 # FinancasPessoais
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+Projeto desenvolvido em Angular e API Rest em Java.
+1º Criar um projeto no MySQL com o seguinte nome => api_spring
 
-## Development server
+2º Rodar a Api Rest na pasta => Api_Rest_FinancasPessoais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3º Abrir o Angular e chamar a função no terminal => ng serve 
 
-## Code scaffolding
+ Print Navegador 1º Tela de Listagem,Alterar e Deletar
+![cadastro](https://user-images.githubusercontent.com/57731043/149692493-b6d1b3c6-61ed-498b-bd21-27080f5a8488.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Print Navegador 1º Tela de Cadastro 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+![cadastr](https://user-images.githubusercontent.com/57731043/149693271-8bdcafe0-26bb-4823-9cee-5126e5289ccd.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
